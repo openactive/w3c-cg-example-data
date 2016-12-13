@@ -1,0 +1,25 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Event",
+  "name": "Beach Body Workout",
+  "url": "http://www.joinflex.tv/c/justin-brown/events/137",
+  "description": "get ready to learn new ways to get summertime fine!! I'm even sharing some of my favorite healthy recipes to help you BLAST FAT",
+  "image": "https://flex-production.s3.amazonaws.com/uploads/event/image/137/IMG_20140428_111516.jpg",
+  "startDate": "2016-07-13T20:00:00-05:00",
+  "duration": "PT30M",
+  "organizer": {
+    "@type": "Person",
+    "name": "Justin Brown",
+    "url": "http://www.joinflex.tv/c/justin-brown",
+    "description": "Personal trainer with over 9 years of experience. My clients become friends which usually turns into family!! I am the trainer for you if you want to gain energy, lose weight and look good naked. Be prepared for a slap of truth from time to time when we discuss things like mindset, exercise, and nutrition. I will teach you the lifestyle of looking good naked which will give you the tools that you need for long term success in building muscle and losing weight!",
+    "image": "https://flex-production.s3.amazonaws.com/uploads/channel/profile_image/23/Beach_oblique_raise.jpg",
+    "workLocation": {
+      "@type": "Place",
+      "address": "panama city beach florida"
+    },
+    "offers": {
+      "price": 0
+    }
+  }
+}
+

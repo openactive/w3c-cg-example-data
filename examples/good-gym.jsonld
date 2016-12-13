@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Event",
+  "name": "Midsummer Night's Dream Run",
+  "alternateName": "Midsummer Night's Dream Run: Run away with the fairies!",
+  "description": "To run or not to run, that is the question (sorry, wrong play). The answer is, of course, to run! \r\n\r\nWe'll be heading off to Bedminster to help the Patchwork Project improve another part of unloved land and turn it in to something worthy of Oberon or Titania (if you've not guessed by now, I'm referring to Shakespeare's Midsummer Night's Dream. It's a great play. Oberon and Titania are king and queen of the faires). \r\n\r\nSo, my fine friends, who is up for this quest on what will be a magical night of running, weeding, digging, and running again? As always, the more the merrier! \r\n\r\nBring little padlock for the lockers that lovely Vivo kindly let us use, and do tell Ellis, the friendly chap on reception, that you've come to go to GoodGym. Try quoting Shakespeare at him, he's a thespian! ",
+  "startDate": "2016-06-21T18:25:00.000Z",
+  "image": [
+      { "@type": "Image", "url": "https://gg-api.s3.amazonaws.com/uploads/photo/image/21667/uploads_2F1462893771268-1wn3a7whgfpopcad-e038cb67411c05d06ff188b0a029dce2_2F20150307_122900.jpg" },
+      { "@type": "Image", "name": "home_wide", "url": "https://gg-api.s3.amazonaws.com/uploads/photo/image/21667/uploads_2F1462893771268-1wn3a7whgfpopcad-e038cb67411c05d06ff188b0a029dce2_2F20150307_122900.jpg" }
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "Vivo Sports & Gym Club",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Welsh Back",
+      "addressLocality": "Bristol",
+      "postalCode": "BS1 4SB"
+    }
+  }
+}
