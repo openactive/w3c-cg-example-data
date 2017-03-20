@@ -12,9 +12,9 @@ Some notes on each of the lists are provided below.
 * The [OpenSessions](http://www.opensessions.io/) list includes unsanitized user generated content, where some activities were added for draft sessions and not published. It's a flat list of activity names, without any hierarchy. It demonstrates a simple activity list without any relationships. [View JSON](converted-data/opensessions-activity-list.json)
 
 
-* The Sports Suite "mega list" is more complicated. It has a nested hierarchy of activities. At the top level are Physical Activities and Sports, these contain activities some of which have their own children. The list also has a separate set of hierarchies, e.g. "Endurance Sports" or "Health & Wellbeing" that collect together other activities from across the hierarchy. So an activity might have multiple parents. [View JSON](converted-data/sportsuite-activity-list.json)
+* The Sports Suite "mega list" is more complicated. It has a nested hierarchy of activities. At the top level are Physical Activities and Sports, these contain activities some of which have their own children. The list also has a separate set of hierarchies, e.g. "Endurance Sports" or "Health & Wellbeing" that collect together other activities from across the hierarchy. So an activity might have multiple parents. [View JSON](converted-data/sportsuite-activity-list.json). [View simplified hierarchy as PDF](sportsuite.pdf)
 
-* The Sport England list combines data from the list of recognised sports and the Active Lives survey. Again it is a hierarchical list where the activities might have multiple parents. The extra feature demonstrated by this list is that it provides alternative labels for some activities. E.g. Bobsled and Bobsleigh are synonyms.[View JSON](converted-data/sportengland-activity-list.json)
+* The Sport England list combines data from the list of recognised sports and the Active Lives survey. Again it is a hierarchical list where the activities might have multiple parents. The extra feature demonstrated by this list is that it provides alternative labels for some activities. E.g. Bobsled and Bobsleigh are synonyms.[View JSON](converted-data/sportengland-activity-list.json). [View simplified hierarchy as PDF](sportengland.pdf)
 
 ## Notes on Conversion
 
