@@ -1,0 +1,21 @@
+require 'rubygems'
+require 'rake'
+require 'rake/clean'
+
+SRC_DIR="src-data"
+DATA_DIR="converted-data"
+
+CLEAN.include ["#{DATA_DIR}/*.json"]
+
+task :opensessions do
+  sh %{ruby bin/opensessions-to-jsonld.rb #{SRC_DIR}/opensessions-activity-list.csv #{DATA_DIR}/opensessions-activity-list.json}
+end
+
+task :sportsuite do
+  sh %{ruby bin/sportsuite-to-jsonld.rb #{SRC_DIR}/sportsuite-activity-list.csv #{DATA_DIR}/sportsuite-activity-list.json}
+end
+
+task :sportengland do
+  sh %{ruby bin/sportengland-to-jsonld.rb #{SRC_DIR}/sportengland-activity-list.csv #{DATA_DIR}/sportengland-activity-list.json}
+end
+

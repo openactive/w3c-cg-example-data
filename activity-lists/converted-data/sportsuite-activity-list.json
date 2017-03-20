@@ -1,0 +1,3491 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "inScheme": {
+      "@reverse": "skos:inScheme"
+    }
+  },
+  "@type": "skos:ConceptScheme",
+  "dc:title": "SportSuite Activity List",
+  "dc:description": "SportSuite Mega List converted to JSONLD",
+  "inScheme": [
+    {
+      "@id": "#physical-activity",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Physical Activity",
+      "skos:topConceptOf": "",
+      "skos:narrower": [
+        {
+          "@id": "#exercise-class",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Exercise Class",
+          "skos:narrower": [
+            {
+              "@id": "#50+-classes",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "50+ Classes"
+            },
+            {
+              "@id": "#aerobics",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Aerobics"
+            },
+            {
+              "@id": "#aqua-zumbaâ®",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Aqua ZumbaÂ®"
+            },
+            {
+              "@id": "#aquafit",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "AquaFit"
+            },
+            {
+              "@id": "#bokwa",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Bokwa"
+            },
+            {
+              "@id": "#boogie-bounce",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Boogie Bounce"
+            },
+            {
+              "@id": "#booiaka",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Booiaka"
+            },
+            {
+              "@id": "#boxfit",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Boxfit"
+            },
+            {
+              "@id": "#clubbercise",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Clubbercise"
+            },
+            {
+              "@id": "#fitness-league",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Fitness League"
+            },
+            {
+              "@id": "#fitsteps",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "FitSteps"
+            },
+            {
+              "@id": "#hooping",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Hooping"
+            },
+            {
+              "@id": "#legs,-bums-and-tums",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Legs, Bums and Tums"
+            },
+            {
+              "@id": "#medicine-ball",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Medicine Ball"
+            },
+            {
+              "@id": "#pole-fitness",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Pole Fitness"
+            },
+            {
+              "@id": "#step",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Step"
+            },
+            {
+              "@id": "#zumbaâ®",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "ZumbaÂ®"
+            }
+          ]
+        },
+        {
+          "@id": "#acrobatic-sports",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Acrobatic Sports",
+          "skos:narrower": [
+            {
+              "@id": "#aerial-discipline",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Aerial Discipline"
+            }
+          ]
+        },
+        {
+          "@id": "#alcoholics-anonymous-aa",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Alcoholics Anonymous (AA)"
+        },
+        {
+          "@id": "#yoga",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Yoga",
+          "skos:narrower": [
+            {
+              "@id": "#ashtanga-yoga",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Ashtanga Yoga"
+            },
+            {
+              "@id": "#hatha-yoga",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Hatha Yoga"
+            }
+          ]
+        },
+        {
+          "@id": "#dance",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Dance",
+          "skos:narrower": [
+            {
+              "@id": "#ballet",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Ballet"
+            },
+            {
+              "@id": "#ballroom-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Ballroom Dancing"
+            },
+            {
+              "@id": "#belly-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Belly Dancing"
+            },
+            {
+              "@id": "#capoeira",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Capoeira"
+            },
+            {
+              "@id": "#flamenco",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Flamenco"
+            },
+            {
+              "@id": "#jazzercise",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Jazzercise"
+            },
+            {
+              "@id": "#latin-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Latin Dancing"
+            },
+            {
+              "@id": "#line-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Line Dancing"
+            },
+            {
+              "@id": "#salsa-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Salsa Dancing"
+            },
+            {
+              "@id": "#tap-dancing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Tap Dancing"
+            }
+          ]
+        },
+        {
+          "@id": "#ballooning",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ballooning"
+        },
+        {
+          "@id": "#barreconcept",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "BarreConcept"
+        },
+        {
+          "@id": "#baton-twirling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Baton Twirling"
+        },
+        {
+          "@id": "#boot-camp",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Boot Camp"
+        },
+        {
+          "@id": "#boxercise",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Boxercise"
+        },
+        {
+          "@id": "#caving",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Caving"
+        },
+        {
+          "@id": "#chair-based-exercise",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Chair Based Exercise"
+        },
+        {
+          "@id": "#circuit-training",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Circuit Training"
+        },
+        {
+          "@id": "#crossfit",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "CrossFit"
+        },
+        {
+          "@id": "#exercise-referral",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Exercise Referral"
+        },
+        {
+          "@id": "#falls-prevention",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Falls Prevention"
+        },
+        {
+          "@id": "#gardening",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gardening"
+        },
+        {
+          "@id": "#geocaching",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Geocaching"
+        },
+        {
+          "@id": "#gym/health-club",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gym/Health Club"
+        },
+        {
+          "@id": "#heart-smart",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Heart Smart"
+        },
+        {
+          "@id": "#indoor-cycling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Indoor Cycling"
+        },
+        {
+          "@id": "#insanity",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Insanity"
+        },
+        {
+          "@id": "#jogging",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Jogging"
+        },
+        {
+          "@id": "#keepfit",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Keepfit"
+        },
+        {
+          "@id": "#kettlebell",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kettlebell"
+        },
+        {
+          "@id": "#kiting",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kiting"
+        },
+        {
+          "@id": "#mental-health",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Mental Health"
+        },
+        {
+          "@id": "#military-fitness",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Military Fitness"
+        },
+        {
+          "@id": "#nordic-walking",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nordic Walking"
+        },
+        {
+          "@id": "#nutrition",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nutrition"
+        },
+        {
+          "@id": "#pilates",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Pilates"
+        },
+        {
+          "@id": "#pony-trekking",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Pony Trekking"
+        },
+        {
+          "@id": "#pre/post-natal",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Pre/post natal"
+        },
+        {
+          "@id": "#qigong",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Qigong"
+        },
+        {
+          "@id": "#rollerblading/skating",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rollerblading/Skating"
+        },
+        {
+          "@id": "#skiptrix",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Skiptrix"
+        },
+        {
+          "@id": "#stop-smoking",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Stop Smoking"
+        },
+        {
+          "@id": "#tai-chi",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Tai Chi"
+        },
+        {
+          "@id": "#tug-of-war",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Tug of War"
+        },
+        {
+          "@id": "#walking",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Walking"
+        },
+        {
+          "@id": "#weight-management",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Weight Management"
+        }
+      ]
+    },
+    {
+      "@id": "#sport",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Sport",
+      "skos:topConceptOf": "",
+      "skos:narrower": [
+        {
+          "@id": "#mountaineering",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Mountaineering",
+          "skos:narrower": [
+            {
+              "@id": "#abseiling",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Abseiling"
+            }
+          ]
+        },
+        {
+          "@id": "#aikido",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Aikido"
+        },
+        {
+          "@id": "#skiing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Skiing",
+          "skos:narrower": [
+            {
+              "@id": "#alpine-ski-racing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Alpine Ski Racing"
+            },
+            {
+              "@id": "#freestyle",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Freestyle"
+            }
+          ]
+        },
+        {
+          "@id": "#american-football",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "American Football",
+          "skos:narrower": [
+            {
+              "@id": "#flag-football",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Flag Football"
+            }
+          ]
+        },
+        {
+          "@id": "#angling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Angling"
+        },
+        {
+          "@id": "#triathlon",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Triathlon",
+          "skos:narrower": [
+            {
+              "@id": "#aquathlon",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Aquathlon"
+            }
+          ]
+        },
+        {
+          "@id": "#archery",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Archery"
+        },
+        {
+          "@id": "#gymnastics",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gymnastics",
+          "skos:narrower": [
+            {
+              "@id": "#artistic-gymnastics",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Artistic Gymnastics"
+            },
+            {
+              "@id": "#rhythmic-gymnastics",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Rhythmic Gymnastics"
+            }
+          ]
+        },
+        {
+          "@id": "#athletics",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Athletics",
+          "skos:narrower": [
+            {
+              "@id": "#discus-throw",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Discus Throw"
+            },
+            {
+              "@id": "#hammer-throw",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Hammer Throw"
+            },
+            {
+              "@id": "#high-jump",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "High Jump"
+            },
+            {
+              "@id": "#javelin-throw",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Javelin Throw"
+            },
+            {
+              "@id": "#long-jump",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Long Jump"
+            },
+            {
+              "@id": "#pole-vault",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Pole Vault"
+            },
+            {
+              "@id": "#shot-put",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Shot Put"
+            },
+            {
+              "@id": "#track-running",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Track Running"
+            }
+          ]
+        },
+        {
+          "@id": "#badminton",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Badminton"
+        },
+        {
+          "@id": "#baseball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Baseball"
+        },
+        {
+          "@id": "#basketball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Basketball",
+          "skos:narrower": [
+            {
+              "@id": "#deaf-basketball",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Deaf Basketball"
+            }
+          ]
+        },
+        {
+          "@id": "#volleyball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Volleyball",
+          "skos:narrower": [
+            {
+              "@id": "#beach-volleyball",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Beach Volleyball"
+            },
+            {
+              "@id": "#sitting-volleyball",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Sitting Volleyball"
+            }
+          ]
+        },
+        {
+          "@id": "#football",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Football",
+          "skos:narrower": [
+            {
+              "@id": "#blind-football",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Blind Football"
+            },
+            {
+              "@id": "#futsal",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Futsal"
+            },
+            {
+              "@id": "#gaelic-football",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Gaelic Football"
+            },
+            {
+              "@id": "#powerchair-football",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Powerchair Football"
+            },
+            {
+              "@id": "#walking-football",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Walking Football"
+            }
+          ]
+        },
+        {
+          "@id": "#cycling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Cycling",
+          "skos:narrower": [
+            {
+              "@id": "#bmx-racing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "BMX Racing"
+            },
+            {
+              "@id": "#handcycling",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Handcycling"
+            },
+            {
+              "@id": "#mountain-biking",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Mountain Biking"
+            }
+          ]
+        },
+        {
+          "@id": "#winter-sports",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Winter Sports",
+          "skos:narrower": [
+            {
+              "@id": "#bobsleigh",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Bobsleigh"
+            }
+          ]
+        },
+        {
+          "@id": "#boccia",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Boccia"
+        },
+        {
+          "@id": "#bowling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Bowling"
+        },
+        {
+          "@id": "#bowls",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Bowls"
+        },
+        {
+          "@id": "#boxing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Boxing"
+        },
+        {
+          "@id": "#canoeing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Canoeing",
+          "skos:narrower": [
+            {
+              "@id": "#canoe-polo",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Canoe Polo"
+            },
+            {
+              "@id": "#white-water-rafting",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "White Water Rafting"
+            }
+          ]
+        },
+        {
+          "@id": "#dance",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Dance",
+          "skos:narrower": [
+            {
+              "@id": "#cheerleading",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Cheerleading"
+            }
+          ]
+        },
+        {
+          "@id": "#chess-boxing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Chess-Boxing"
+        },
+        {
+          "@id": "#shooting",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Shooting",
+          "skos:narrower": [
+            {
+              "@id": "#clay-target-shooting",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Clay Target Shooting"
+            }
+          ]
+        },
+        {
+          "@id": "#climbing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Climbing"
+        },
+        {
+          "@id": "#cricket",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Cricket",
+          "skos:narrower": [
+            {
+              "@id": "#kwik-cricket",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Kwik Cricket"
+            },
+            {
+              "@id": "#table-cricket",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Table Cricket"
+            }
+          ]
+        },
+        {
+          "@id": "#croquet",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Croquet"
+        },
+        {
+          "@id": "#curling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Curling",
+          "skos:narrower": [
+            {
+              "@id": "#kurling",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Kurling"
+            }
+          ]
+        },
+        {
+          "@id": "#tennis",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Tennis",
+          "skos:narrower": [
+            {
+              "@id": "#deaf-tennis",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Deaf Tennis"
+            },
+            {
+              "@id": "#visually-impaired-tennis",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Visually Impaired Tennis"
+            }
+          ]
+        },
+        {
+          "@id": "#disability-sport",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Disability Sport"
+        },
+        {
+          "@id": "#swimming",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Swimming",
+          "skos:narrower": [
+            {
+              "@id": "#diving",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Diving"
+            },
+            {
+              "@id": "#synchronised-swimming",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Synchronised Swimming"
+            }
+          ]
+        },
+        {
+          "@id": "#dodgeball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Dodgeball"
+        },
+        {
+          "@id": "#equestrian",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Equestrian",
+          "skos:narrower": [
+            {
+              "@id": "#dressage",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Dressage"
+            },
+            {
+              "@id": "#eventing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Eventing"
+            },
+            {
+              "@id": "#polo",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Polo"
+            },
+            {
+              "@id": "#show-jumping",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Show Jumping"
+            }
+          ]
+        },
+        {
+          "@id": "#fencing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Fencing"
+        },
+        {
+          "@id": "#ice-skating",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ice Skating",
+          "skos:narrower": [
+            {
+              "@id": "#figure-skating",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Figure Skating"
+            },
+            {
+              "@id": "#speed-skating",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Speed Skating"
+            }
+          ]
+        },
+        {
+          "@id": "#fishing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Fishing"
+        },
+        {
+          "@id": "#floorball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Floorball"
+        },
+        {
+          "@id": "#flying",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Flying"
+        },
+        {
+          "@id": "#footgolf",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Footgolf"
+        },
+        {
+          "@id": "#snowboarding",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Snowboarding",
+          "skos:narrower": [
+            {
+              "@id": "#freestyle-snowboarding",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Freestyle Snowboarding"
+            },
+            {
+              "@id": "#snowboard-racing",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Snowboard Racing"
+            }
+          ]
+        },
+        {
+          "@id": "#gliding",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gliding"
+        },
+        {
+          "@id": "#goalball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Goalball"
+        },
+        {
+          "@id": "#golf",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Golf",
+          "skos:narrower": [
+            {
+              "@id": "#golf-xtreme",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Golf Xtreme"
+            },
+            {
+              "@id": "#speedgolf",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Speedgolf"
+            },
+            {
+              "@id": "#texas-scramble-golf",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Texas Scramble Golf"
+            },
+            {
+              "@id": "#tri-golf",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Tri-Golf"
+            }
+          ]
+        },
+        {
+          "@id": "#handball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Handball"
+        },
+        {
+          "@id": "#hockey",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Hockey",
+          "skos:narrower": [
+            {
+              "@id": "#roller-hockey",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Roller Hockey"
+            }
+          ]
+        },
+        {
+          "@id": "#horseball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Horseball"
+        },
+        {
+          "@id": "#ice-hockey",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ice Hockey"
+        },
+        {
+          "@id": "#wheelchair-basketball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Basketball",
+          "skos:narrower": [
+            {
+              "@id": "#inclusive-zone-basketball",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Inclusive Zone Basketball"
+            }
+          ]
+        },
+        {
+          "@id": "#ju-jitsu",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ju-Jitsu"
+        },
+        {
+          "@id": "#judo",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Judo"
+        },
+        {
+          "@id": "#karate",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Karate"
+        },
+        {
+          "@id": "#kayaking",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kayaking"
+        },
+        {
+          "@id": "#kendo",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kendo"
+        },
+        {
+          "@id": "#kickboxing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kickboxing"
+        },
+        {
+          "@id": "#kobudo",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kobudo"
+        },
+        {
+          "@id": "#korfball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Korfball"
+        },
+        {
+          "@id": "#krav-maga",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Krav Maga"
+        },
+        {
+          "@id": "#kung-fu",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Kung Fu"
+        },
+        {
+          "@id": "#lacrosse",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Lacrosse"
+        },
+        {
+          "@id": "#lifesaving-sport",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Lifesaving Sport"
+        },
+        {
+          "@id": "#mixed-martial-arts",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Mixed Martial Arts"
+        },
+        {
+          "@id": "#model-flying",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Model Flying"
+        },
+        {
+          "@id": "#modern-pentathlon",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Modern Pentathlon"
+        },
+        {
+          "@id": "#motor-sport",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Motor Sport"
+        },
+        {
+          "@id": "#muay-thai",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Muay Thai"
+        },
+        {
+          "@id": "#multi-sport",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Multi-Sport"
+        },
+        {
+          "@id": "#netball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Netball"
+        },
+        {
+          "@id": "#ninjutsu",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ninjutsu"
+        },
+        {
+          "@id": "#octopush",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Octopush"
+        },
+        {
+          "@id": "#orienteering",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Orienteering"
+        },
+        {
+          "@id": "#padel-tennis",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Padel Tennis"
+        },
+        {
+          "@id": "#paintball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Paintball"
+        },
+        {
+          "@id": "#para-badminton",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Para-Badminton"
+        },
+        {
+          "@id": "#parkour",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Parkour"
+        },
+        {
+          "@id": "#petanque",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Petanque"
+        },
+        {
+          "@id": "#pickleball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Pickleball"
+        },
+        {
+          "@id": "#table-tennis",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Table Tennis",
+          "skos:narrower": [
+            {
+              "@id": "#polybat",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Polybat"
+            }
+          ]
+        },
+        {
+          "@id": "#powerkiting",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Powerkiting"
+        },
+        {
+          "@id": "#racketball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Racketball"
+        },
+        {
+          "@id": "#roller-derby",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Roller Derby"
+        },
+        {
+          "@id": "#rollerskiing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rollerskiing"
+        },
+        {
+          "@id": "#rounders",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rounders"
+        },
+        {
+          "@id": "#rowing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rowing"
+        },
+        {
+          "@id": "#rugby-league",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rugby League"
+        },
+        {
+          "@id": "#rugby-union",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rugby Union",
+          "skos:narrower": [
+            {
+              "@id": "#touch-rugby",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Touch Rugby"
+            }
+          ]
+        },
+        {
+          "@id": "#running",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Running"
+        },
+        {
+          "@id": "#sailing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Sailing",
+          "skos:narrower": [
+            {
+              "@id": "#sailability",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Sailability"
+            }
+          ]
+        },
+        {
+          "@id": "#scuba-diving",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Scuba Diving"
+        },
+        {
+          "@id": "#skateboarding",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Skateboarding"
+        },
+        {
+          "@id": "#snorkelling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Snorkelling"
+        },
+        {
+          "@id": "#softball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Softball"
+        },
+        {
+          "@id": "#speedway",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Speedway"
+        },
+        {
+          "@id": "#squash",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Squash"
+        },
+        {
+          "@id": "#surfing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Surfing",
+          "skos:narrower": [
+            {
+              "@id": "#stand-up-paddleboarding",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Stand Up Paddleboarding"
+            }
+          ]
+        },
+        {
+          "@id": "#stoolball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Stoolball"
+        },
+        {
+          "@id": "#systema",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Systema"
+        },
+        {
+          "@id": "#taekwondo",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Taekwondo"
+        },
+        {
+          "@id": "#tchoukball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Tchoukball"
+        },
+        {
+          "@id": "#trampolining",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Trampolining"
+        },
+        {
+          "@id": "#ultimate-frisbee",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ultimate Frisbee"
+        },
+        {
+          "@id": "#wakeboarding",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wakeboarding"
+        },
+        {
+          "@id": "#walking-basketball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Walking Basketball"
+        },
+        {
+          "@id": "#wallball",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wallball"
+        },
+        {
+          "@id": "#water-polo",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Water Polo"
+        },
+        {
+          "@id": "#water-skiing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Water Skiing"
+        },
+        {
+          "@id": "#weightlifting",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Weightlifting"
+        },
+        {
+          "@id": "#wheelchair-dancing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Dancing"
+        },
+        {
+          "@id": "#wheelchair-fencing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Fencing"
+        },
+        {
+          "@id": "#wheelchair-football",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Football"
+        },
+        {
+          "@id": "#wheelchair-rugby",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Rugby"
+        },
+        {
+          "@id": "#wheelchair-tennis",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wheelchair Tennis"
+        },
+        {
+          "@id": "#windsurfing",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Windsurfing"
+        },
+        {
+          "@id": "#wrestling",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wrestling"
+        }
+      ]
+    },
+    {
+      "@id": "#exercise",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Exercise",
+      "skos:narrower": [
+        {
+          "@id": "#50+-classes"
+        },
+        {
+          "@id": "#aerial-discipline"
+        },
+        {
+          "@id": "#aerobics"
+        },
+        {
+          "@id": "#aqua-zumbaâ®"
+        },
+        {
+          "@id": "#aquafit"
+        },
+        {
+          "@id": "#ashtanga-yoga"
+        },
+        {
+          "@id": "#ballet"
+        },
+        {
+          "@id": "#ballroom-dancing"
+        },
+        {
+          "@id": "#barreconcept"
+        },
+        {
+          "@id": "#baton-twirling"
+        },
+        {
+          "@id": "#belly-dancing"
+        },
+        {
+          "@id": "#bokwa"
+        },
+        {
+          "@id": "#boogie-bounce"
+        },
+        {
+          "@id": "#booiaka"
+        },
+        {
+          "@id": "#boxercise"
+        },
+        {
+          "@id": "#boxfit"
+        },
+        {
+          "@id": "#capoeira"
+        },
+        {
+          "@id": "#caving"
+        },
+        {
+          "@id": "#chair-based-exercise"
+        },
+        {
+          "@id": "#cheerleading"
+        },
+        {
+          "@id": "#circuit-training"
+        },
+        {
+          "@id": "#clubbercise"
+        },
+        {
+          "@id": "#crossfit"
+        },
+        {
+          "@id": "#dance"
+        },
+        {
+          "@id": "#exercise-class"
+        },
+        {
+          "@id": "#falls-prevention"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#fitness-league"
+        },
+        {
+          "@id": "#fitsteps"
+        },
+        {
+          "@id": "#flamenco"
+        },
+        {
+          "@id": "#geocaching"
+        },
+        {
+          "@id": "#hatha-yoga"
+        },
+        {
+          "@id": "#hooping"
+        },
+        {
+          "@id": "#indoor-cycling"
+        },
+        {
+          "@id": "#insanity"
+        },
+        {
+          "@id": "#jazzercise"
+        },
+        {
+          "@id": "#kettlebell"
+        },
+        {
+          "@id": "#latin-dancing"
+        },
+        {
+          "@id": "#legs,-bums-and-tums"
+        },
+        {
+          "@id": "#line-dancing"
+        },
+        {
+          "@id": "#medicine-ball"
+        },
+        {
+          "@id": "#military-fitness"
+        },
+        {
+          "@id": "#parkour"
+        },
+        {
+          "@id": "#pilates"
+        },
+        {
+          "@id": "#pole-fitness"
+        },
+        {
+          "@id": "#salsa-dancing"
+        },
+        {
+          "@id": "#skiptrix"
+        },
+        {
+          "@id": "#step"
+        },
+        {
+          "@id": "#tai-chi"
+        },
+        {
+          "@id": "#tap-dancing"
+        },
+        {
+          "@id": "#wheelchair-dancing"
+        },
+        {
+          "@id": "#yoga"
+        },
+        {
+          "@id": "#zumbaâ®"
+        }
+      ]
+    },
+    {
+      "@id": "#movement-and-dance",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Movement and Dance",
+      "skos:narrower": [
+        {
+          "@id": "#50+-classes"
+        },
+        {
+          "@id": "#aerial-discipline"
+        },
+        {
+          "@id": "#aerobics"
+        },
+        {
+          "@id": "#aqua-zumbaâ®"
+        },
+        {
+          "@id": "#aquafit"
+        },
+        {
+          "@id": "#ashtanga-yoga"
+        },
+        {
+          "@id": "#ballet"
+        },
+        {
+          "@id": "#ballroom-dancing"
+        },
+        {
+          "@id": "#barreconcept"
+        },
+        {
+          "@id": "#baton-twirling"
+        },
+        {
+          "@id": "#belly-dancing"
+        },
+        {
+          "@id": "#bokwa"
+        },
+        {
+          "@id": "#boogie-bounce"
+        },
+        {
+          "@id": "#booiaka"
+        },
+        {
+          "@id": "#boxercise"
+        },
+        {
+          "@id": "#boxfit"
+        },
+        {
+          "@id": "#capoeira"
+        },
+        {
+          "@id": "#caving"
+        },
+        {
+          "@id": "#chair-based-exercise"
+        },
+        {
+          "@id": "#cheerleading"
+        },
+        {
+          "@id": "#circuit-training"
+        },
+        {
+          "@id": "#clubbercise"
+        },
+        {
+          "@id": "#crossfit"
+        },
+        {
+          "@id": "#dance"
+        },
+        {
+          "@id": "#exercise-class"
+        },
+        {
+          "@id": "#falls-prevention"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#fitness-league"
+        },
+        {
+          "@id": "#fitsteps"
+        },
+        {
+          "@id": "#flamenco"
+        },
+        {
+          "@id": "#geocaching"
+        },
+        {
+          "@id": "#hatha-yoga"
+        },
+        {
+          "@id": "#hooping"
+        },
+        {
+          "@id": "#indoor-cycling"
+        },
+        {
+          "@id": "#insanity"
+        },
+        {
+          "@id": "#jazzercise"
+        },
+        {
+          "@id": "#kettlebell"
+        },
+        {
+          "@id": "#latin-dancing"
+        },
+        {
+          "@id": "#legs,-bums-and-tums"
+        },
+        {
+          "@id": "#line-dancing"
+        },
+        {
+          "@id": "#medicine-ball"
+        },
+        {
+          "@id": "#military-fitness"
+        },
+        {
+          "@id": "#parkour"
+        },
+        {
+          "@id": "#pilates"
+        },
+        {
+          "@id": "#pole-fitness"
+        },
+        {
+          "@id": "#salsa-dancing"
+        },
+        {
+          "@id": "#skiptrix"
+        },
+        {
+          "@id": "#step"
+        },
+        {
+          "@id": "#tai-chi"
+        },
+        {
+          "@id": "#tap-dancing"
+        },
+        {
+          "@id": "#wheelchair-dancing"
+        },
+        {
+          "@id": "#yoga"
+        },
+        {
+          "@id": "#zumbaâ®"
+        }
+      ]
+    },
+    {
+      "@id": "#extreme-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Extreme Sports",
+      "skos:narrower": [
+        {
+          "@id": "#abseiling"
+        },
+        {
+          "@id": "#alpine-ski-racing"
+        },
+        {
+          "@id": "#bmx-racing"
+        },
+        {
+          "@id": "#climbing"
+        },
+        {
+          "@id": "#freestyle"
+        },
+        {
+          "@id": "#lacrosse"
+        },
+        {
+          "@id": "#mixed-martial-arts"
+        },
+        {
+          "@id": "#roller-derby"
+        },
+        {
+          "@id": "#skateboarding"
+        },
+        {
+          "@id": "#skiing"
+        },
+        {
+          "@id": "#snowboarding"
+        },
+        {
+          "@id": "#surfing"
+        },
+        {
+          "@id": "#wakeboarding"
+        },
+        {
+          "@id": "#water-skiing"
+        },
+        {
+          "@id": "#white-water-rafting"
+        }
+      ]
+    },
+    {
+      "@id": "#individual-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Individual Sports",
+      "skos:narrower": [
+        {
+          "@id": "#abseiling"
+        },
+        {
+          "@id": "#angling"
+        },
+        {
+          "@id": "#aquathlon"
+        },
+        {
+          "@id": "#archery"
+        },
+        {
+          "@id": "#artistic-gymnastics"
+        },
+        {
+          "@id": "#athletics"
+        },
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#baton-twirling"
+        },
+        {
+          "@id": "#bmx-racing"
+        },
+        {
+          "@id": "#bowling"
+        },
+        {
+          "@id": "#bowls"
+        },
+        {
+          "@id": "#boxing"
+        },
+        {
+          "@id": "#canoeing"
+        },
+        {
+          "@id": "#clay-target-shooting"
+        },
+        {
+          "@id": "#climbing"
+        },
+        {
+          "@id": "#croquet"
+        },
+        {
+          "@id": "#cycling"
+        },
+        {
+          "@id": "#dance"
+        },
+        {
+          "@id": "#discus-throw"
+        },
+        {
+          "@id": "#dressage"
+        },
+        {
+          "@id": "#equestrian"
+        },
+        {
+          "@id": "#eventing"
+        },
+        {
+          "@id": "#fencing"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#fishing"
+        },
+        {
+          "@id": "#footgolf"
+        },
+        {
+          "@id": "#golf"
+        },
+        {
+          "@id": "#gymnastics"
+        },
+        {
+          "@id": "#hammer-throw"
+        },
+        {
+          "@id": "#handcycling"
+        },
+        {
+          "@id": "#high-jump"
+        },
+        {
+          "@id": "#hooping"
+        },
+        {
+          "@id": "#ice-skating"
+        },
+        {
+          "@id": "#javelin-throw"
+        },
+        {
+          "@id": "#jogging"
+        },
+        {
+          "@id": "#ju-jitsu"
+        },
+        {
+          "@id": "#judo"
+        },
+        {
+          "@id": "#karate"
+        },
+        {
+          "@id": "#kickboxing"
+        },
+        {
+          "@id": "#kobudo"
+        },
+        {
+          "@id": "#long-jump"
+        },
+        {
+          "@id": "#mixed-martial-arts"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#motor-sport"
+        },
+        {
+          "@id": "#mountain-biking"
+        },
+        {
+          "@id": "#mountaineering"
+        },
+        {
+          "@id": "#muay-thai"
+        },
+        {
+          "@id": "#para-badminton"
+        },
+        {
+          "@id": "#petanque"
+        },
+        {
+          "@id": "#pole-vault"
+        },
+        {
+          "@id": "#powerkiting"
+        },
+        {
+          "@id": "#racketball"
+        },
+        {
+          "@id": "#rhythmic-gymnastics"
+        },
+        {
+          "@id": "#rollerblading/skating"
+        },
+        {
+          "@id": "#rowing"
+        },
+        {
+          "@id": "#running"
+        },
+        {
+          "@id": "#sailing"
+        },
+        {
+          "@id": "#shooting"
+        },
+        {
+          "@id": "#shot-put"
+        },
+        {
+          "@id": "#show-jumping"
+        },
+        {
+          "@id": "#skateboarding"
+        },
+        {
+          "@id": "#skiing"
+        },
+        {
+          "@id": "#snowboarding"
+        },
+        {
+          "@id": "#speed-skating"
+        },
+        {
+          "@id": "#speedgolf"
+        },
+        {
+          "@id": "#speedway"
+        },
+        {
+          "@id": "#squash"
+        },
+        {
+          "@id": "#surfing"
+        },
+        {
+          "@id": "#swimming"
+        },
+        {
+          "@id": "#synchronised-swimming"
+        },
+        {
+          "@id": "#table-tennis"
+        },
+        {
+          "@id": "#taekwondo"
+        },
+        {
+          "@id": "#tennis"
+        },
+        {
+          "@id": "#track-running"
+        },
+        {
+          "@id": "#trampolining"
+        },
+        {
+          "@id": "#tri-golf"
+        },
+        {
+          "@id": "#triathlon"
+        },
+        {
+          "@id": "#wakeboarding"
+        },
+        {
+          "@id": "#walking"
+        },
+        {
+          "@id": "#water-skiing"
+        },
+        {
+          "@id": "#weightlifting"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        },
+        {
+          "@id": "#windsurfing"
+        },
+        {
+          "@id": "#wrestling"
+        }
+      ]
+    },
+    {
+      "@id": "#acrobatic-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Acrobatic Sports",
+      "skos:narrower": [
+        {
+          "@id": "#aerial-discipline"
+        },
+        {
+          "@id": "#artistic-gymnastics"
+        },
+        {
+          "@id": "#baton-twirling"
+        },
+        {
+          "@id": "#dance"
+        },
+        {
+          "@id": "#diving"
+        },
+        {
+          "@id": "#freestyle"
+        },
+        {
+          "@id": "#gymnastics"
+        },
+        {
+          "@id": "#hooping"
+        },
+        {
+          "@id": "#ice-skating"
+        },
+        {
+          "@id": "#parkour"
+        },
+        {
+          "@id": "#rhythmic-gymnastics"
+        },
+        {
+          "@id": "#skiing"
+        },
+        {
+          "@id": "#synchronised-swimming"
+        },
+        {
+          "@id": "#trampolining"
+        }
+      ]
+    },
+    {
+      "@id": "#combat-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Combat Sports",
+      "skos:narrower": [
+        {
+          "@id": "#aikido"
+        },
+        {
+          "@id": "#boxing"
+        },
+        {
+          "@id": "#chess-boxing"
+        },
+        {
+          "@id": "#fencing"
+        },
+        {
+          "@id": "#ju-jitsu"
+        },
+        {
+          "@id": "#judo"
+        },
+        {
+          "@id": "#karate"
+        },
+        {
+          "@id": "#kendo"
+        },
+        {
+          "@id": "#kickboxing"
+        },
+        {
+          "@id": "#kobudo"
+        },
+        {
+          "@id": "#kung-fu"
+        },
+        {
+          "@id": "#mixed-martial-arts"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#muay-thai"
+        },
+        {
+          "@id": "#ninjutsu"
+        },
+        {
+          "@id": "#systema"
+        },
+        {
+          "@id": "#taekwondo"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        },
+        {
+          "@id": "#wrestling"
+        }
+      ]
+    },
+    {
+      "@id": "#martial-arts",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Martial Arts",
+      "skos:narrower": [
+        {
+          "@id": "#aikido"
+        },
+        {
+          "@id": "#capoeira"
+        },
+        {
+          "@id": "#ju-jitsu"
+        },
+        {
+          "@id": "#judo"
+        },
+        {
+          "@id": "#karate"
+        },
+        {
+          "@id": "#kendo"
+        },
+        {
+          "@id": "#kobudo"
+        },
+        {
+          "@id": "#krav-maga"
+        },
+        {
+          "@id": "#kung-fu"
+        },
+        {
+          "@id": "#mixed-martial-arts"
+        },
+        {
+          "@id": "#muay-thai"
+        },
+        {
+          "@id": "#ninjutsu"
+        },
+        {
+          "@id": "#qigong"
+        },
+        {
+          "@id": "#systema"
+        },
+        {
+          "@id": "#taekwondo"
+        },
+        {
+          "@id": "#tai-chi"
+        }
+      ]
+    },
+    {
+      "@id": "#health-&-wellbeing",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Health & Wellbeing",
+      "skos:narrower": [
+        {
+          "@id": "#alcoholics-anonymous-aa"
+        },
+        {
+          "@id": "#ashtanga-yoga"
+        },
+        {
+          "@id": "#boot-camp"
+        },
+        {
+          "@id": "#boxfit"
+        },
+        {
+          "@id": "#chair-based-exercise"
+        },
+        {
+          "@id": "#exercise-referral"
+        },
+        {
+          "@id": "#gardening"
+        },
+        {
+          "@id": "#gym/health-club"
+        },
+        {
+          "@id": "#heart-smart"
+        },
+        {
+          "@id": "#keepfit"
+        },
+        {
+          "@id": "#mental-health"
+        },
+        {
+          "@id": "#nordic-walking"
+        },
+        {
+          "@id": "#nutrition"
+        },
+        {
+          "@id": "#pre/post-natal"
+        },
+        {
+          "@id": "#qigong"
+        },
+        {
+          "@id": "#stop-smoking"
+        },
+        {
+          "@id": "#tai-chi"
+        },
+        {
+          "@id": "#walking"
+        },
+        {
+          "@id": "#walking-football"
+        },
+        {
+          "@id": "#weight-management"
+        },
+        {
+          "@id": "#yoga"
+        }
+      ]
+    },
+    {
+      "@id": "#athletic-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Athletic Sports",
+      "skos:narrower": [
+        {
+          "@id": "#alpine-ski-racing"
+        },
+        {
+          "@id": "#aquathlon"
+        },
+        {
+          "@id": "#athletics"
+        },
+        {
+          "@id": "#hammer-throw"
+        },
+        {
+          "@id": "#high-jump"
+        },
+        {
+          "@id": "#javelin-throw"
+        },
+        {
+          "@id": "#jogging"
+        },
+        {
+          "@id": "#long-jump"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#pole-vault"
+        },
+        {
+          "@id": "#running"
+        },
+        {
+          "@id": "#shot-put"
+        },
+        {
+          "@id": "#track-running"
+        },
+        {
+          "@id": "#triathlon"
+        }
+      ]
+    },
+    {
+      "@id": "#winter-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Winter Sports",
+      "skos:narrower": [
+        {
+          "@id": "#alpine-ski-racing"
+        },
+        {
+          "@id": "#bobsleigh"
+        },
+        {
+          "@id": "#curling"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#freestyle"
+        },
+        {
+          "@id": "#freestyle-snowboarding"
+        },
+        {
+          "@id": "#ice-hockey"
+        },
+        {
+          "@id": "#ice-skating"
+        },
+        {
+          "@id": "#skiing"
+        },
+        {
+          "@id": "#snowboard-racing"
+        },
+        {
+          "@id": "#snowboarding"
+        },
+        {
+          "@id": "#speed-skating"
+        }
+      ]
+    },
+    {
+      "@id": "#ball-games",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Ball Games",
+      "skos:narrower": [
+        {
+          "@id": "#american-football"
+        },
+        {
+          "@id": "#baseball"
+        },
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#beach-volleyball"
+        },
+        {
+          "@id": "#blind-football"
+        },
+        {
+          "@id": "#boccia"
+        },
+        {
+          "@id": "#bowling"
+        },
+        {
+          "@id": "#bowls"
+        },
+        {
+          "@id": "#canoe-polo"
+        },
+        {
+          "@id": "#cricket"
+        },
+        {
+          "@id": "#croquet"
+        },
+        {
+          "@id": "#deaf-basketball"
+        },
+        {
+          "@id": "#deaf-tennis"
+        },
+        {
+          "@id": "#dodgeball"
+        },
+        {
+          "@id": "#flag-football"
+        },
+        {
+          "@id": "#football"
+        },
+        {
+          "@id": "#footgolf"
+        },
+        {
+          "@id": "#futsal"
+        },
+        {
+          "@id": "#gaelic-football"
+        },
+        {
+          "@id": "#goalball"
+        },
+        {
+          "@id": "#golf"
+        },
+        {
+          "@id": "#golf-xtreme"
+        },
+        {
+          "@id": "#handball"
+        },
+        {
+          "@id": "#hockey"
+        },
+        {
+          "@id": "#inclusive-zone-basketball"
+        },
+        {
+          "@id": "#korfball"
+        },
+        {
+          "@id": "#kwik-cricket"
+        },
+        {
+          "@id": "#lacrosse"
+        },
+        {
+          "@id": "#netball"
+        },
+        {
+          "@id": "#padel-tennis"
+        },
+        {
+          "@id": "#petanque"
+        },
+        {
+          "@id": "#pickleball"
+        },
+        {
+          "@id": "#polo"
+        },
+        {
+          "@id": "#polybat"
+        },
+        {
+          "@id": "#powerchair-football"
+        },
+        {
+          "@id": "#racketball"
+        },
+        {
+          "@id": "#roller-hockey"
+        },
+        {
+          "@id": "#rounders"
+        },
+        {
+          "@id": "#rugby-league"
+        },
+        {
+          "@id": "#rugby-union"
+        },
+        {
+          "@id": "#sitting-volleyball"
+        },
+        {
+          "@id": "#softball"
+        },
+        {
+          "@id": "#speedgolf"
+        },
+        {
+          "@id": "#squash"
+        },
+        {
+          "@id": "#stoolball"
+        },
+        {
+          "@id": "#table-cricket"
+        },
+        {
+          "@id": "#table-tennis"
+        },
+        {
+          "@id": "#tchoukball"
+        },
+        {
+          "@id": "#tennis"
+        },
+        {
+          "@id": "#texas-scramble-golf"
+        },
+        {
+          "@id": "#touch-rugby"
+        },
+        {
+          "@id": "#tri-golf"
+        },
+        {
+          "@id": "#visually-impaired-tennis"
+        },
+        {
+          "@id": "#volleyball"
+        },
+        {
+          "@id": "#walking-basketball"
+        },
+        {
+          "@id": "#walking-football"
+        },
+        {
+          "@id": "#wallball"
+        },
+        {
+          "@id": "#water-polo"
+        },
+        {
+          "@id": "#wheelchair-basketball"
+        },
+        {
+          "@id": "#wheelchair-football"
+        },
+        {
+          "@id": "#wheelchair-rugby"
+        },
+        {
+          "@id": "#wheelchair-tennis"
+        }
+      ]
+    },
+    {
+      "@id": "#team-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Team Sports",
+      "skos:narrower": [
+        {
+          "@id": "#american-football"
+        },
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#baseball"
+        },
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#beach-volleyball"
+        },
+        {
+          "@id": "#blind-football"
+        },
+        {
+          "@id": "#bowls"
+        },
+        {
+          "@id": "#canoe-polo"
+        },
+        {
+          "@id": "#cheerleading"
+        },
+        {
+          "@id": "#cricket"
+        },
+        {
+          "@id": "#curling"
+        },
+        {
+          "@id": "#cycling"
+        },
+        {
+          "@id": "#dance"
+        },
+        {
+          "@id": "#deaf-basketball"
+        },
+        {
+          "@id": "#dodgeball"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#flag-football"
+        },
+        {
+          "@id": "#floorball"
+        },
+        {
+          "@id": "#football"
+        },
+        {
+          "@id": "#futsal"
+        },
+        {
+          "@id": "#gaelic-football"
+        },
+        {
+          "@id": "#goalball"
+        },
+        {
+          "@id": "#handball"
+        },
+        {
+          "@id": "#hockey"
+        },
+        {
+          "@id": "#ice-hockey"
+        },
+        {
+          "@id": "#ice-skating"
+        },
+        {
+          "@id": "#inclusive-zone-basketball"
+        },
+        {
+          "@id": "#korfball"
+        },
+        {
+          "@id": "#kwik-cricket"
+        },
+        {
+          "@id": "#lacrosse"
+        },
+        {
+          "@id": "#netball"
+        },
+        {
+          "@id": "#octopush"
+        },
+        {
+          "@id": "#padel-tennis"
+        },
+        {
+          "@id": "#para-badminton"
+        },
+        {
+          "@id": "#pickleball"
+        },
+        {
+          "@id": "#polo"
+        },
+        {
+          "@id": "#powerchair-football"
+        },
+        {
+          "@id": "#rhythmic-gymnastics"
+        },
+        {
+          "@id": "#roller-derby"
+        },
+        {
+          "@id": "#roller-hockey"
+        },
+        {
+          "@id": "#rounders"
+        },
+        {
+          "@id": "#rowing"
+        },
+        {
+          "@id": "#rugby-league"
+        },
+        {
+          "@id": "#rugby-union"
+        },
+        {
+          "@id": "#sailing"
+        },
+        {
+          "@id": "#sitting-volleyball"
+        },
+        {
+          "@id": "#softball"
+        },
+        {
+          "@id": "#stoolball"
+        },
+        {
+          "@id": "#synchronised-swimming"
+        },
+        {
+          "@id": "#table-tennis"
+        },
+        {
+          "@id": "#tchoukball"
+        },
+        {
+          "@id": "#texas-scramble-golf"
+        },
+        {
+          "@id": "#touch-rugby"
+        },
+        {
+          "@id": "#tug-of-war"
+        },
+        {
+          "@id": "#visually-impaired-tennis"
+        },
+        {
+          "@id": "#volleyball"
+        },
+        {
+          "@id": "#walking-football"
+        },
+        {
+          "@id": "#wallball"
+        },
+        {
+          "@id": "#water-polo"
+        },
+        {
+          "@id": "#wheelchair-basketball"
+        },
+        {
+          "@id": "#wheelchair-football"
+        },
+        {
+          "@id": "#wheelchair-rugby"
+        },
+        {
+          "@id": "#white-water-rafting"
+        }
+      ]
+    },
+    {
+      "@id": "#throwing-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Throwing Sports",
+      "skos:narrower": [
+        {
+          "@id": "#american-football"
+        },
+        {
+          "@id": "#athletics"
+        },
+        {
+          "@id": "#boccia"
+        },
+        {
+          "@id": "#cricket"
+        },
+        {
+          "@id": "#discus-throw"
+        },
+        {
+          "@id": "#dodgeball"
+        },
+        {
+          "@id": "#flag-football"
+        },
+        {
+          "@id": "#hammer-throw"
+        },
+        {
+          "@id": "#javelin-throw"
+        },
+        {
+          "@id": "#netball"
+        },
+        {
+          "@id": "#shot-put"
+        },
+        {
+          "@id": "#tchoukball"
+        }
+      ]
+    },
+    {
+      "@id": "#water-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Water Sports",
+      "skos:narrower": [
+        {
+          "@id": "#angling"
+        },
+        {
+          "@id": "#aqua-zumbaâ®"
+        },
+        {
+          "@id": "#aquafit"
+        },
+        {
+          "@id": "#aquathlon"
+        },
+        {
+          "@id": "#canoe-polo"
+        },
+        {
+          "@id": "#canoeing"
+        },
+        {
+          "@id": "#diving"
+        },
+        {
+          "@id": "#fishing"
+        },
+        {
+          "@id": "#kayaking"
+        },
+        {
+          "@id": "#lifesaving-sport"
+        },
+        {
+          "@id": "#octopush"
+        },
+        {
+          "@id": "#rowing"
+        },
+        {
+          "@id": "#sailability"
+        },
+        {
+          "@id": "#sailing"
+        },
+        {
+          "@id": "#scuba-diving"
+        },
+        {
+          "@id": "#snorkelling"
+        },
+        {
+          "@id": "#stand-up-paddleboarding"
+        },
+        {
+          "@id": "#surfing"
+        },
+        {
+          "@id": "#swimming"
+        },
+        {
+          "@id": "#synchronised-swimming"
+        },
+        {
+          "@id": "#triathlon"
+        },
+        {
+          "@id": "#wakeboarding"
+        },
+        {
+          "@id": "#water-polo"
+        },
+        {
+          "@id": "#water-skiing"
+        },
+        {
+          "@id": "#white-water-rafting"
+        },
+        {
+          "@id": "#windsurfing"
+        }
+      ]
+    },
+    {
+      "@id": "#endurance-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Endurance Sports",
+      "skos:narrower": [
+        {
+          "@id": "#aquathlon"
+        },
+        {
+          "@id": "#athletics"
+        },
+        {
+          "@id": "#cycling"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#mountaineering"
+        },
+        {
+          "@id": "#nordic-walking"
+        },
+        {
+          "@id": "#orienteering"
+        },
+        {
+          "@id": "#rowing"
+        },
+        {
+          "@id": "#running"
+        },
+        {
+          "@id": "#sailing"
+        },
+        {
+          "@id": "#triathlon"
+        }
+      ]
+    },
+    {
+      "@id": "#olympic/paralympic-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Olympic/Paralympic Sports",
+      "skos:narrower": [
+        {
+          "@id": "#archery"
+        },
+        {
+          "@id": "#artistic-gymnastics"
+        },
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#beach-volleyball"
+        },
+        {
+          "@id": "#bmx-racing"
+        },
+        {
+          "@id": "#bowls"
+        },
+        {
+          "@id": "#boxing"
+        },
+        {
+          "@id": "#canoeing"
+        },
+        {
+          "@id": "#clay-target-shooting"
+        },
+        {
+          "@id": "#curling"
+        },
+        {
+          "@id": "#cycling"
+        },
+        {
+          "@id": "#discus-throw"
+        },
+        {
+          "@id": "#diving"
+        },
+        {
+          "@id": "#dressage"
+        },
+        {
+          "@id": "#eventing"
+        },
+        {
+          "@id": "#figure-skating"
+        },
+        {
+          "@id": "#football"
+        },
+        {
+          "@id": "#goalball"
+        },
+        {
+          "@id": "#gymnastics"
+        },
+        {
+          "@id": "#hammer-throw"
+        },
+        {
+          "@id": "#handball"
+        },
+        {
+          "@id": "#high-jump"
+        },
+        {
+          "@id": "#hockey"
+        },
+        {
+          "@id": "#ice-hockey"
+        },
+        {
+          "@id": "#ice-skating"
+        },
+        {
+          "@id": "#judo"
+        },
+        {
+          "@id": "#long-jump"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#netball"
+        },
+        {
+          "@id": "#pole-vault"
+        },
+        {
+          "@id": "#rhythmic-gymnastics"
+        },
+        {
+          "@id": "#sailing"
+        },
+        {
+          "@id": "#shooting"
+        },
+        {
+          "@id": "#shot-put"
+        },
+        {
+          "@id": "#show-jumping"
+        },
+        {
+          "@id": "#sitting-volleyball"
+        },
+        {
+          "@id": "#skiing"
+        },
+        {
+          "@id": "#snowboarding"
+        },
+        {
+          "@id": "#speed-skating"
+        },
+        {
+          "@id": "#swimming"
+        },
+        {
+          "@id": "#synchronised-swimming"
+        },
+        {
+          "@id": "#table-tennis"
+        },
+        {
+          "@id": "#taekwondo"
+        },
+        {
+          "@id": "#tennis"
+        },
+        {
+          "@id": "#track-running"
+        },
+        {
+          "@id": "#trampolining"
+        },
+        {
+          "@id": "#volleyball"
+        },
+        {
+          "@id": "#water-polo"
+        },
+        {
+          "@id": "#weightlifting"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        },
+        {
+          "@id": "#wheelchair-rugby"
+        },
+        {
+          "@id": "#wrestling"
+        }
+      ]
+    },
+    {
+      "@id": "#precision-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Precision Sports",
+      "skos:narrower": [
+        {
+          "@id": "#archery"
+        },
+        {
+          "@id": "#artistic-gymnastics"
+        },
+        {
+          "@id": "#boccia"
+        },
+        {
+          "@id": "#bowls"
+        },
+        {
+          "@id": "#clay-target-shooting"
+        },
+        {
+          "@id": "#croquet"
+        },
+        {
+          "@id": "#curling"
+        },
+        {
+          "@id": "#fencing"
+        },
+        {
+          "@id": "#footgolf"
+        },
+        {
+          "@id": "#golf"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#petanque"
+        },
+        {
+          "@id": "#shooting"
+        },
+        {
+          "@id": "#speedgolf"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        }
+      ]
+    },
+    {
+      "@id": "#indoor-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Indoor Sports",
+      "skos:narrower": [
+        {
+          "@id": "#artistic-gymnastics"
+        },
+        {
+          "@id": "#athletics"
+        },
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#baton-twirling"
+        },
+        {
+          "@id": "#boccia"
+        },
+        {
+          "@id": "#bowling"
+        },
+        {
+          "@id": "#boxing"
+        },
+        {
+          "@id": "#chess-boxing"
+        },
+        {
+          "@id": "#curling"
+        },
+        {
+          "@id": "#cycling"
+        },
+        {
+          "@id": "#dodgeball"
+        },
+        {
+          "@id": "#fencing"
+        },
+        {
+          "@id": "#handball"
+        },
+        {
+          "@id": "#inclusive-zone-basketball"
+        },
+        {
+          "@id": "#ju-jitsu"
+        },
+        {
+          "@id": "#judo"
+        },
+        {
+          "@id": "#karate"
+        },
+        {
+          "@id": "#kickboxing"
+        },
+        {
+          "@id": "#kurling"
+        },
+        {
+          "@id": "#para-badminton"
+        },
+        {
+          "@id": "#polybat"
+        },
+        {
+          "@id": "#powerchair-football"
+        },
+        {
+          "@id": "#sitting-volleyball"
+        },
+        {
+          "@id": "#table-tennis"
+        },
+        {
+          "@id": "#trampolining"
+        },
+        {
+          "@id": "#wallball"
+        },
+        {
+          "@id": "#wheelchair-basketball"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        },
+        {
+          "@id": "#zumbaâ®"
+        }
+      ]
+    },
+    {
+      "@id": "#racquet-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Racquet Sports",
+      "skos:narrower": [
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#deaf-tennis"
+        },
+        {
+          "@id": "#floorball"
+        },
+        {
+          "@id": "#padel-tennis"
+        },
+        {
+          "@id": "#para-badminton"
+        },
+        {
+          "@id": "#racketball"
+        },
+        {
+          "@id": "#squash"
+        },
+        {
+          "@id": "#tennis"
+        },
+        {
+          "@id": "#visually-impaired-tennis"
+        }
+      ]
+    },
+    {
+      "@id": "#traditional-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Traditional Sports",
+      "skos:narrower": [
+        {
+          "@id": "#badminton"
+        },
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#cricket"
+        },
+        {
+          "@id": "#dressage"
+        },
+        {
+          "@id": "#equestrian"
+        },
+        {
+          "@id": "#football"
+        },
+        {
+          "@id": "#high-jump"
+        },
+        {
+          "@id": "#hockey"
+        },
+        {
+          "@id": "#netball"
+        },
+        {
+          "@id": "#shot-put"
+        }
+      ]
+    },
+    {
+      "@id": "#street-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Street Sports",
+      "skos:narrower": [
+        {
+          "@id": "#basketball"
+        },
+        {
+          "@id": "#football"
+        },
+        {
+          "@id": "#futsal"
+        },
+        {
+          "@id": "#parkour"
+        },
+        {
+          "@id": "#rollerblading/skating"
+        },
+        {
+          "@id": "#rollerskiing"
+        },
+        {
+          "@id": "#skateboarding"
+        },
+        {
+          "@id": "#triathlon"
+        }
+      ]
+    },
+    {
+      "@id": "#beach-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Beach Sports",
+      "skos:narrower": [
+        {
+          "@id": "#beach-volleyball"
+        },
+        {
+          "@id": "#lifesaving-sport"
+        },
+        {
+          "@id": "#powerkiting"
+        },
+        {
+          "@id": "#surfing"
+        },
+        {
+          "@id": "#volleyball"
+        }
+      ]
+    },
+    {
+      "@id": "#disability-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Disability Sports",
+      "skos:narrower": [
+        {
+          "@id": "#blind-football"
+        },
+        {
+          "@id": "#boccia"
+        },
+        {
+          "@id": "#deaf-basketball"
+        },
+        {
+          "@id": "#deaf-tennis"
+        },
+        {
+          "@id": "#disability-sport"
+        },
+        {
+          "@id": "#goalball"
+        },
+        {
+          "@id": "#handcycling"
+        },
+        {
+          "@id": "#inclusive-zone-basketball"
+        },
+        {
+          "@id": "#kurling"
+        },
+        {
+          "@id": "#para-badminton"
+        },
+        {
+          "@id": "#polybat"
+        },
+        {
+          "@id": "#powerchair-football"
+        },
+        {
+          "@id": "#sailability"
+        },
+        {
+          "@id": "#sitting-volleyball"
+        },
+        {
+          "@id": "#table-cricket"
+        },
+        {
+          "@id": "#visually-impaired-tennis"
+        },
+        {
+          "@id": "#wheelchair-basketball"
+        },
+        {
+          "@id": "#wheelchair-dancing"
+        },
+        {
+          "@id": "#wheelchair-fencing"
+        },
+        {
+          "@id": "#wheelchair-football"
+        },
+        {
+          "@id": "#wheelchair-rugby"
+        },
+        {
+          "@id": "#wheelchair-tennis"
+        }
+      ]
+    },
+    {
+      "@id": "#hybrid-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Hybrid Sports",
+      "skos:narrower": [
+        {
+          "@id": "#canoe-polo"
+        },
+        {
+          "@id": "#chess-boxing"
+        },
+        {
+          "@id": "#footgolf"
+        },
+        {
+          "@id": "#horseball"
+        },
+        {
+          "@id": "#korfball"
+        },
+        {
+          "@id": "#octopush"
+        },
+        {
+          "@id": "#roller-hockey"
+        },
+        {
+          "@id": "#rollerskiing"
+        },
+        {
+          "@id": "#wheelchair-tennis"
+        }
+      ]
+    },
+    {
+      "@id": "#equestrian-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Equestrian Sports",
+      "skos:narrower": [
+        {
+          "@id": "#dressage"
+        },
+        {
+          "@id": "#equestrian"
+        },
+        {
+          "@id": "#eventing"
+        },
+        {
+          "@id": "#modern-pentathlon"
+        },
+        {
+          "@id": "#polo"
+        },
+        {
+          "@id": "#pony-trekking"
+        },
+        {
+          "@id": "#show-jumping"
+        }
+      ]
+    },
+    {
+      "@id": "#air-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Air Sports",
+      "skos:narrower": [
+        {
+          "@id": "#gliding"
+        },
+        {
+          "@id": "#model-flying"
+        }
+      ]
+    },
+    {
+      "@id": "#motor-sport",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Motor Sport",
+      "skos:narrower": [
+        {
+          "@id": "#motor-sport"
+        },
+        {
+          "@id": "#speedway"
+        }
+      ]
+    },
+    {
+      "@id": "#roller-sports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Roller Sports",
+      "skos:narrower": [
+        {
+          "@id": "#roller-derby"
+        },
+        {
+          "@id": "#roller-hockey"
+        },
+        {
+          "@id": "#rollerblading/skating"
+        },
+        {
+          "@id": "#rollerskiing"
+        }
+      ]
+    },
+    {
+      "@id": "#boardsports",
+      "@type": "skos:Concept",
+      "skos:topConceptOf": "",
+      "skos:prefLabel": "Boardsports",
+      "skos:narrower": [
+        {
+          "@id": "#skateboarding"
+        },
+        {
+          "@id": "#snowboarding"
+        },
+        {
+          "@id": "#surfing"
+        },
+        {
+          "@id": "#wakeboarding"
+        }
+      ]
+    }
+  ]
+}
